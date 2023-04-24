@@ -1,0 +1,76 @@
+/*
+Tomás Santiago Sassone
+1°D
+Dojo B
+TP Dojo 1
+--------------------------------------
+BUZZER es el #define utilizdo para agregarlo, asociandolo a pines de la placa arduino.
+
+La funcion titilar_buzzer se encarga de encender y apagar el buzzer. Ésta recibe un entero, que representa
+la cantidad de segundos que queremos que se ejecute la funcion. Si por ejemplo ingreso 5, la función haría
+que el buzzer suene 5 segundos, dos veces por segundo.
+
+La función principal empieza encendiendo el LED rojo por 5 segundos, al mismo tiempo que hace sonar el Buzzer
+con intervalos de medio segundo por la misma cantidad de tiempo. Luego ambos se apagan para encenderse el LED
+amarillo por 3 segundos, y por último éste se apaga y se enciende el LED verde por otros 5 segundos, cuando el
+LED verde se apaga, la función vuelve a comenzar.
+*/
+
+#define LEDROJ 13
+#define LEDAMA 12
+#define LEDVER 11
+#define BUZZER 7
+
+
+void setup()
+{
+  Serial.begin(9600);
+  pinMode(LEDROJ, OUTPUT);
+  pinMode(LEDAMA, OUTPUT);
+  pinMode(LEDVER, OUTPUT);
+  pinMode(BUZZER, OUTPUT);
+}
+
+void loop()
+{
+  Serial.println("Inicia la funcion");
+  Serial.println("Se enciende el semaforo rojo y se ejecuta la funcion 'titilar_buzzer'");
+  prender(LEDROJ);
+  titilarBuzzer(5);
+  apagar(LEDROJ);
+  Serial.println("Se apaga el buzzer y el led rojo y se enciende el amarillo");               
+  prender(LEDAMA);
+  delay(3000);
+  apagar(LEDAMA);
+  Serial.println("Se apaga el led amarillo y se enciende el verde");               
+  prender(LEDVER);
+  delay(5000);
+  apagar(LEDVER);
+  Serial.println("Termina la funcion");               
+}
+
+void prender(int led)
+{
+  digitalWrite(led, HIGH);
+}
+
+void apagar(int led)
+{
+  digitalWrite(led, LOW);
+}
+
+void titilarBuzzer(int segundos)
+{
+  int contador;
+  for (contador=1 ; contador<=segundos ; contador++)
+  {
+    tone(BUZZER, 530, 200);
+    delay(200);
+    noTone(0);
+    delay(300);
+    tone(BUZZER, 530, 200);
+    delay(200);
+    noTone(0);
+    delay(300);
+  }
+}
