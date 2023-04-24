@@ -50,11 +50,11 @@ void loop()
 }
 ~~~
 ### Link a los proyectos individuales:
-- **Código Simone**: https://www.tinkercad.com/things/59JFMMUNXJy-smashing-hango-elzing/editel?sharecode=RyhmHt8iyIxD6rXJl_Qejh3F6JswjkwmnDtfDBG48AQ
-- **Código Rossello**: https://www.tinkercad.com/things/apowO6ruCgk-ingenious-turing-bojo/editel?sharecode=BHMXS_B8_SMPxHeZN1rOwnd0Dvywdt7wrqlUDBAfrkk
-- **Código Schiaffino**: https://www.tinkercad.com/things/10qGufkSAB1-brilliant-densor/editel?sharecode=oEnLGT-2U7SThnIi5KY-WkN-3ZVpxC7Ybp-m8PfOIUA
-- **Código Villalba**: https://www.tinkercad.com/things/lNCvABa1HKT-copy-of-matias-villalba-ejercicio-2-4-div-d/editel?sharecode=EJFfDO2ZyNUy4bPHWqmhLceneGhBtowOyD50hmNN1Sg
-- **Código Sassone**: https://www.tinkercad.com/things/5eB6TfLInHc-ingenious-kup-wolt/editel?sharecode=g73MXUOwZ1ez2ICqHsApRXK4MoKPoOfsh-24o9ul6yE
+- **Proyecto Simone**: https://www.tinkercad.com/things/59JFMMUNXJy-smashing-hango-elzing/editel?sharecode=RyhmHt8iyIxD6rXJl_Qejh3F6JswjkwmnDtfDBG48AQ
+- **Proyecto Rossello**: https://www.tinkercad.com/things/apowO6ruCgk-ingenious-turing-bojo/editel?sharecode=BHMXS_B8_SMPxHeZN1rOwnd0Dvywdt7wrqlUDBAfrkk
+- **Proyecto Schiaffino**: https://www.tinkercad.com/things/10qGufkSAB1-brilliant-densor/editel?sharecode=oEnLGT-2U7SThnIi5KY-WkN-3ZVpxC7Ybp-m8PfOIUA
+- **Proyecto Villalba**: https://www.tinkercad.com/things/lNCvABa1HKT-copy-of-matias-villalba-ejercicio-2-4-div-d/editel?sharecode=EJFfDO2ZyNUy4bPHWqmhLceneGhBtowOyD50hmNN1Sg
+- **Proyecto Sassone**: https://www.tinkercad.com/things/5eB6TfLInHc-ingenious-kup-wolt/editel?sharecode=g73MXUOwZ1ez2ICqHsApRXK4MoKPoOfsh-24o9ul6yE
 
 ## :robot: Link al proyecto
 - [Proyecto](https://www.tinkercad.com/things/5eB6TfLInHc-ingenious-kup-wolt/editel?sharecode=g73MXUOwZ1ez2ICqHsApRXK4MoKPoOfsh-24o9ul6yE)
